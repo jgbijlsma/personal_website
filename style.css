@@ -16,7 +16,6 @@ body {
   border: unset;
   color: inherit;
   font: inherit;
-  caret-shape: block;
 }
 
 #input:focus {

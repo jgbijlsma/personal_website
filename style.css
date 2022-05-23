@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+body {
+  background: #101010;
+  color: #ffffff;
+  font-family: "Ubuntu Mono", Consolas, monospace;
+  font-size: 1.5rem;
+}
+
+.terminal-line {
+  display: block;
+}
+
+#input {
+  background: unset;
+  border: unset;
+  color: inherit;
+  font: inherit;
+  caret-shape: block;
+}
+
+#input:focus {
+  outline: unset; 
+}
+
+.prompt {
+  color: #50a436;
+}
+
+.arrow {
+  margin-right: 0.5em;
+  color: #50a436;
+}
